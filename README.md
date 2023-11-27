@@ -39,7 +39,7 @@ $$Cos(q_{3}) = \frac{L^{2} - \left( L_{2}^{2} + L_{3}^{2} \right)}{2 \cdot L_{2}
 
 $$Sin(q_{3} = \sqrt{1 - Cos(q_{3})}$$
 
-$$q_{3} = atan2(Sin_(q_{3}, Cos_(q_{3})$$
+$$q_{3} = atan2(Sin_(q_{3}), Cos_(q_{3}))$$
 
 Luego, examinamos la segunda y cuarta articulación. Para ello, empleamos la siguiente proyección:
 
