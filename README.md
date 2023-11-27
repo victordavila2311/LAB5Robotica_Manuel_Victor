@@ -192,7 +192,7 @@ end
 
 <div>
 <p style = 'text-align:center;' align="center">
-<img src="https://github.com/victordavila2311/LAB1Robotica_Manuel_Victor/assets/82252851/fde2e2e1-0896-4848-9a8b-d7463b84b075" width="300px" >
+<img src="https://github.com/victordavila2311/LAB5Robotica_Manuel_Victor/blob/main/imagenes%20lab%205/GUI.png" width="300px" >
 </p>
 </div>
 
