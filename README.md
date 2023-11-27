@@ -61,7 +61,7 @@ $$\alpha = atan2 \left( z_{c} - L_{1}, \space \sqrt{ \left( x^{2} + y^{2} \right
 
 Igual que anteriormente, empleamos otro triángulo rectángulo para $\gamma$:
 
-$$\gamma = atan2 \left( L_{3} \cdot Sin_{q_{3}, \space L_{2} + L_{3} \cdot Cos(q_{3}) } \right)$$
+$$\gamma = atan2 \left( L_{3} \cdot Sin_{q_{3}}, \space L_{2} + L_{3} \cdot Cos(q_{3}) } \right)$$
 
 ## Descripción de la Solución Planteada.
 
