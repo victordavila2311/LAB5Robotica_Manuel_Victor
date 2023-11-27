@@ -15,7 +15,7 @@ En la estrategia para definir una muñeca, empleamos el método geométrico, hac
 
 Como se observa, el cálculo de la primera articulación se puede realizar de la siguiente manera:
 
-$$q_{1} = atan2(x, y)$$
+$$q_{1} = atan2(x, \space y)$$
 
 Posteriormente, avanzamos con la tercera articulación. Siguiendo el método, proyectamos el vector hasta la punta en el plano $x_{2}$ - $y_{2}$. El resultado obtenido es:
 
@@ -39,7 +39,7 @@ $$Cos(q_{3}) = \frac{L^{2} - \left( L_{2}^{2} + L_{3}^{2} \right)}{2 \cdot L_{2}
 
 $$Sin(q_{3} = \sqrt{1 - Cos(q_{3})}$$
 
-$$q_{3} = atan2(Sin(q_{3}), Cos(q_{3}))$$
+$$q_{3} = atan2(Sin(q_{3}), \space Cos(q_{3}))$$
 
 Luego, examinamos la segunda y cuarta articulación. Para ello, empleamos la siguiente proyección:
 
@@ -51,7 +51,13 @@ Luego, examinamos la segunda y cuarta articulación. Para ello, empleamos la sig
 
 De la imagen anterior, se obtiene:
 
-$$90 = q_{2} + \alpha + \gamma \rightarrow q_{2} = \alpha + \gamma - 90$$
+$$90 = q_{2} + \alpha + \gamma$$ 
+
+$$q_{2} = \alpha + \gamma - 90$$
+
+Para $\alpha$, construimos un triángulo rectángulo y utilizamos la función $atan2$:
+
+$$\alpha = atan2 \left( z_{c} - L_{1}, \space \sqrt{ \left( x^{2} + y^{2} \right)} \right)$$
 
 ## Descripción de la Solución Planteada.
 
