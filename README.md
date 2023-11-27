@@ -51,7 +51,7 @@ Luego, examinamos la segunda y cuarta articulación. Para ello, empleamos la sig
 
 De la imagen anterior, se obtiene:
 
-$$90 = q_{2} + \alpha + \gamma \arrowright q_{2} = \alpha + \gamma - 90$$
+$$90 = q_{2} + \alpha + \gamma \rightarrow q_{2} = \alpha + \gamma - 90$$
 
 ## Descripción de la Solución Planteada.
 
