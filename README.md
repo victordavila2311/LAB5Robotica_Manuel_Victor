@@ -164,8 +164,27 @@ for i = length(V(:,1))+1:length(V(:,1))+length(M(:,1))
 end
 ```
 
+### velocidades
+Para definir las velocidades que queremos que se muevan los motores va ser igual en todos y va a ser igual a la mas lenta de cualquiera de los motores y esa misma se la vamos a asignar a todos los motores para que se muevan de la manera mas sincronizada posible entre cada punto
+```matlab
+for i = 2:length(q(:,1))
+    vel=(q(i,:)-q(i-1,:))/t;
+    vel=min(abs(vel));
+    vel=mapvel(app,vel);
+    sol=mapeo(app,deg2rad(q(i)))
+    movermotoresbits(app, sol, vel)
+    pause(5)
+end
+```
+La funcion map vel mapea el valor de velocidad que obtenemos en rad/s y la pasamos a un valor de bits teniendo en cuenta que el fabricante nos dice que un valor de 0 en memoria es aproximadamente igual a 0 rpm y 1023 es igual a 114 rpm, el codigo es el siguiente para la funcion.
 
+```matlab
+function velbit= mapvel(app, vel)
+    velrpm=vel*(60/1)*(1/(2*pi));
+    velbit=round(1023*velrpm/app.maxVel);
 
+end
+```
 
 ## Descripción de la Solución Planteada.
 
