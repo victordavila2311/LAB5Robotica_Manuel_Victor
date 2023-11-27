@@ -43,7 +43,7 @@ $$Cos(q_{3}) = \frac{L^{2} - \left( L_{2}^{2} + L_{3}^{2} \right)}{2 \cdot L_{2}
 
 <div>
 <p style = 'text-align:center;' align="center">
-<a href="https://youtu.be/Ou4hDWupNw4" target="_blank"><img src="https://github.com/victordavila2311/LAB1Robotica_Manuel_Victor/blob/main/imagenes_simulacion/imagen%20implementacion.png" 
+<a href="https://youtu.be/Ou4hDWupNw4" target="_blank"><img src="https://github.com/victordavila2311/LAB5Robotica_Manuel_Victor/blob/main/imagenes%20lab%205/escritura%20completa.png" 
 alt="IMAGE ALT TEXT HERE" width="260" height="319.5" border="10" /></a>
 </p>
 </div>
