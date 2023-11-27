@@ -2,7 +2,7 @@
 ### Integrantes: 
 - Victor Manuel Dávila Castañeda.
 - Manuel Felipe Carranza Montenegro.
-- 
+  
 ## Cinemática Inversa.
 
 En la estrategia para definir una muñeca, empleamos el método geométrico, haciendo uso de la siguiente vista isométrica:
@@ -37,6 +37,19 @@ Resolvemos la ecuación para $Cos(q_{3})$ y finalmente obtenemos el siguiente si
 
 $$Cos(q_{3}) = \frac{L^{2} - \left( L_{2}^{2} + L_{3}^{2} \right)}{2 \cdot L_{2} \cdot L_{3}}$$
 
+$$Sin(q_{3} = \sqrt{1 - Cos(q_{3})}$$
+
+$$q_{3} = atan2(Sin_(q_{3}, Cos_(q_{3})$$
+
+Luego, examinamos la segunda y cuarta articulación. Para ello, empleamos la siguiente proyección:
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img width="417" alt="Screenshot 2023-11-26 at 19 32 42" src="https://github.com/victordavila2311/LAB5Robotica_Manuel_Victor/assets/82252851/72c642aa-f832-402f-8293-984e6c130abd">
+</p>
+</div>
+
+De la imagen anterior, se obtiene:
 
 ## Descripción de la Solución Planteada.
 
