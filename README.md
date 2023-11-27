@@ -29,6 +29,14 @@ Primero, observamos que:
 
 $$L = \sqrt{ \left( z_{c} - L_{1} \right)^2 + x_{c}^{2} + y_{c}^{2}}$$
 
+Construimos un triángulo con los lados $L_{1}$, $L_{2}$ y $L_{3}$. A partir de esto, podemos aplicar el teorema del coseno y obtener:
+
+$$L_{2} = L_{2}^{2} + L_{3}^{2} - 2 \cdot L_{2} \cdot L_{3} \cdot Cos(180 - q_{3})$$
+
+Resolvemos la ecuación para $Cos(q_{3})$ y finalmente obtenemos el siguiente sistema de ecuaciones:
+
+$$Cos(q_{3}) = \frac{L^{2} - \left( L_{2}^{2} + L_{3}^{2} \right)}{2 \cdot L_{2} \cdot L_{3}}$$
+
 
 ## Descripción de la Solución Planteada.
 
