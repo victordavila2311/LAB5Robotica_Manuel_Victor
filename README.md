@@ -188,7 +188,15 @@ end
 
 ## Implementación de la Solución.
 
-### Dibujo Espacio de Trabajo.
+### GUI Matlab
+
+<div>
+<p style = 'text-align:center;' align="center">
+<img src="https://github.com/victordavila2311/LAB1Robotica_Manuel_Victor/assets/82252851/fde2e2e1-0896-4848-9a8b-d7463b84b075" width="300px" >
+</p>
+</div>
+
+### Dibujo Espacio de Trabajo. (dar click en la imagen)
 <div>
 <p style = 'text-align:center;' align="center">
 <a href="https://www.youtube.com/watch?v=Exu-weSjR9Y" target="_blank"><img src="https://github.com/victordavila2311/LAB5Robotica_Manuel_Victor/blob/main/imagenes%20lab%205/espacio%20trabajo.png" 
@@ -196,7 +204,7 @@ alt="IMAGE ALT TEXT HERE" width="520" height="319.5" border="10" /></a>
 </p>
 </div>
 
-### Dibujo Final.
+### Dibujo Final. (dar click en la imagen)
 <div>
 <p style = 'text-align:center;' align="center">
 <a href="https://youtu.be/Ou4hDWupNw4" target="_blank"><img src="https://github.com/victordavila2311/LAB5Robotica_Manuel_Victor/blob/main/imagenes%20lab%205/escritura%20completa.png" 
