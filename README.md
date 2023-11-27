@@ -186,7 +186,7 @@ function velbit= mapvel(app, vel)
 end
 ```
 
-## Descripción de la Solución Planteada.
+## Implementación de la Solución.
 
 ### Dibujo Espacio de Trabajo.
 <div>
