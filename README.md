@@ -63,6 +63,14 @@ Igual que anteriormente, empleamos otro triángulo rectángulo para $\gamma$:
 
 $$\gamma = atan2 \left( L_{3} \cdot Sin_{q_{3}}, \space L_{2} + L_{3} \cdot Cos(q_{3}) \right)$$
 
+Finalmente, para la última articulación, se sabe que la suma de cada ángulo de la articulación es la orientación deseada:
+
+$$\theta = 90 + q_{2} + q_{3} + q_{4}$$
+
+Y al resolver para $q_{4}$, se obtiene:
+
+$$q_{4} = \theta - \left( 90 + q_{2} + q_{3} \right)$$
+
 ## Descripción de la Solución Planteada.
 
 ### Dibujo Espacio de Trabajo.
