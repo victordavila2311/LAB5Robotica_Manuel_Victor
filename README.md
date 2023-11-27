@@ -31,3 +31,11 @@ $$L = \sqrt{ \left( z_{c} - L_{1} \right)^2 + x_{c}^{2} + y_{c}^{2}}$$
 
 
 ## Descripción de la Solución Planteada.
+
+
+<div>
+<p style = 'text-align:center;' align="center">
+<a href="https://youtu.be/Ou4hDWupNw4" target="_blank"><img src="https://github.com/victordavila2311/LAB1Robotica_Manuel_Victor/blob/main/imagenes_simulacion/imagen%20implementacion.png" 
+alt="IMAGE ALT TEXT HERE" width="260" height="319.5" border="10" /></a>
+</p>
+</div>
