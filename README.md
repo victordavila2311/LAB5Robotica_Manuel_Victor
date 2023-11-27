@@ -64,7 +64,7 @@ $$\alpha = atan2 \left( z_{c} - L_{1}, \space \sqrt{ \left( x^{2} + y^{2} \right
 ### dibujo espacio de trabajo
 <div>
 <p style = 'text-align:center;' align="center">
-<a href="https://www.youtube.com/watch?v=Exu-weSjR9Y" target="_blank"><img src="https://github.com/victordavila2311/LAB5Robotica_Manuel_Victor/blob/main/imagenes%20lab%205/escritura%20completa.png" 
+<a href="https://www.youtube.com/watch?v=Exu-weSjR9Y" target="_blank"><img src="https://github.com/victordavila2311/LAB5Robotica_Manuel_Victor/blob/main/imagenes%20lab%205/espacio%20trabajo.png" 
 alt="IMAGE ALT TEXT HERE" width="260" height="319.5" border="10" /></a>
 </p>
 </div>
