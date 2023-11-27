@@ -73,6 +73,8 @@ $$q_{4} = \theta - \left( 90 + q_{2} + q_{3} \right)$$
 
 ## Implementación en Matlab.
 
+El siguiente bloque de código correspondiente a la cinemática inversa se encarga de calcular los ángulos de articulación $qs$ necesarios para posicionar el extremo del robot PhantomX Pincher en ubicaciones específicas del espacio tridimensional.
+
 ```matlab
 ROBOT.plot([0 0 0 0], 'notiles', 'noname');
 
@@ -162,7 +164,7 @@ for i = length(V(:,1))+1:length(V(:,1))+length(M(:,1))
 end
 ```
 
-El bloque de código correspondiente a la cinemática inversa se encarga de calcular los ángulos de articulación $qs$ necesarios para posicionar el extremo del robot PhantomX Pincher en ubicaciones específicas del espacio tridimensional.
+
 
 
 ## Descripción de la Solución Planteada.
