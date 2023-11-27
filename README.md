@@ -15,6 +15,7 @@ En la estrategia para definir una muñeca, empleamos el método geométrico, hac
 
 Como se observa, el cálculo de la primera articulación se puede realizar de la siguiente manera:
 
-$q_{1} = atan2(x, y)$
+$$q_{1} = atan2(x, y)$$
+
 
 ## Descripción de la Solución Planteada.
